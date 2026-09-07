@@ -1,0 +1,17 @@
+{
+  "title": "在这里填写地图标题",
+  "subtitle": "在这里填写一句简洁说明。",
+  "panelEyebrow": "一条路径如何形成",
+  "panelTitle": "三个示例阶段",
+  "instruction": "不必按顺序，点亮你此刻认出的那一块。",
+  "completeImage": "assets/map-complete.png",
+  "centerImage": "assets/center.png",
+  "aspectRatio": "16 / 9",
+  "layout": { "textPercent": 40, "mapPercent": 60 },
+  "zoom": { "min": 1, "max": 2.4, "factor": 1.12 },
+  "regions": [
+    { "id": "01", "title": "第一阶段", "state": "状态一", "description": "第一阶段的简短说明。", "image": "assets/region-01.png", "color": "#b86450" },
+    { "id": "02", "title": "第二阶段", "state": "状态二", "description": "第二阶段的简短说明。", "image": "assets/region-02.png", "color": "#4d8194" },
+    { "id": "03", "title": "第三阶段", "state": "状态三", "description": "第三阶段的简短说明。", "image": "assets/region-03.png", "color": "#6c8064" }
+  ]
+}
