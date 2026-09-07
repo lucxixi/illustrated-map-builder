@@ -1,0 +1,7 @@
+interface:
+  display_name: "插画交互地图构建器"
+  short_description: "制作可逐区点亮、缩放并在完成时合拢的插画交互地图"
+  brand_color: "#46666D"
+  default_prompt: "使用 $illustrated-map-builder，根据我的内容和视觉参考制作一张可逐区点亮、最终合拢的交互地图。"
+policy:
+  allow_implicit_invocation: true
