@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f1e7" />
+    <link rel="icon" href="data:," />
+    <title>插画交互地图</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="masthead">
+        <div><p class="eyebrow">ILLUSTRATED MAP</p><h1 id="page-title"></h1></div>
+        <p class="subtitle" id="page-subtitle"></p>
+        <div class="progress" aria-live="polite"><strong id="progress-number"></strong><span id="progress-label"></span></div>
+      </header>
+
+      <section class="atlas-layout" aria-label="插画交互地图">
+        <aside class="journey-panel" aria-labelledby="panel-title">
+          <header><p id="panel-eyebrow">PATH</p><h2 id="panel-title"></h2></header>
+          <ol class="journey-list" id="journey-list"></ol>
+        </aside>
+
+        <section class="map-panel">
+          <div class="map-meta" aria-hidden="true"><span>互动地图</span><i></i><span>滚轮缩放 · 双击复位 · <b id="zoom-status">100%</b></span></div>
+          <div class="map-stage" id="map-stage" role="group" aria-label="可逐区点亮的插画地图">
+            <div class="map-board" id="map-board"><div class="map-layers" id="map-layers"></div></div>
+          </div>
+          <footer class="map-footer"><p id="instruction"></p><button id="reset-button" type="button">重新探索</button></footer>
+        </section>
+      </section>
+    </main>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
